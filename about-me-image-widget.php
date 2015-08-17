@@ -9,6 +9,11 @@ Version: 1.1
 License: GPLv2 or later
 */
 
+// If this file is called directly, abort.
+if ( ! defined( 'WPINC' ) ) {
+	die;
+}
+
 define( 'WPC_ABOUT_ME_IMAGE_WIDGET_VERSION', '1.1' );
 
 function wpc_about_me_image_widget_enqueue_admin_scripts() {
