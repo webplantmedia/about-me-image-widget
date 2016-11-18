@@ -36,6 +36,10 @@ Yes, I do accept donations.  If you want to buy me a sandwich or something, you 
 
 ## Changelog ##
 
+### Version 1.4.1
+
+* added label to image input
+
 ### Version 1.4
 
 * sanitized, validated, added options
