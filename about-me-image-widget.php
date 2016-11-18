@@ -132,13 +132,17 @@ class WPC_About_Me_Image_Widget extends WP_Widget {
 				<input type="text" class="widefat" id="<?php echo $this->get_field_id('title'); ?>" name="<?php echo $this->get_field_name('title'); ?>" value="<?php echo esc_attr( $title ); ?>" />
 			</p>
 			<div class="wpc-widgets-image-field">
-				<input class="widefat" id="<?php echo $this->get_field_id( 'image' ); ?>" name="<?php echo $this->get_field_name( 'image' ); ?>" type="text" value="<?php echo esc_url( $image ); ?>" />
+				<label for="<?php echo $this->get_field_id( 'image' ); ?>"><?php echo _e( 'Image URL:' ); ?>
+					<input class="widefat" id="<?php echo $this->get_field_id( 'image' ); ?>" name="<?php echo $this->get_field_name( 'image' ); ?>" type="text" value="<?php echo esc_url( $image ); ?>" />
+				</label>
 				<a class="wpc-widgets-image-upload button inline-button" data-target="#<?php echo $this->get_field_id( 'image' ); ?>" data-preview=".wpc-widgets-preview-image" data-frame="select" data-state="wpc_widgets_insert_single" data-fetch="url" data-title="Insert Image" data-button="Insert" data-class="media-frame wpc-widgets-custom-uploader" title="Add Media">Add Media</a>
 				<a class="button wpc-widgets-delete-image" data-target="#<?php echo $this->get_field_id( 'image' ); ?>" data-preview=".wpc-widgets-preview-image">Delete</a>
 				<div class="wpc-widgets-preview-image"<?php echo $imagestyle; ?>><img src="<?php echo esc_url($image); ?>" /></div>
 			</div>
 			<div class="wpc-widgets-image-field">
-				<input class="widefat" id="<?php echo $this->get_field_id( 'image2x' ); ?>" name="<?php echo $this->get_field_name( 'image2x' ); ?>" type="text" value="<?php echo esc_url( $image2x ); ?>" />
+				<label for="<?php echo $this->get_field_id( 'image2x' ); ?>"><?php echo _e( 'Image 2x URL (Retina Displays):' ); ?>
+					<input class="widefat" id="<?php echo $this->get_field_id( 'image2x' ); ?>" name="<?php echo $this->get_field_name( 'image2x' ); ?>" type="text" value="<?php echo esc_url( $image2x ); ?>" />
+				</label>
 				<a class="wpc-widgets-image-upload button inline-button" data-target="#<?php echo $this->get_field_id( 'image2x' ); ?>" data-preview=".wpc-widgets-preview-image" data-frame="select" data-state="wpc_widgets_insert_single" data-fetch="url" data-title="Insert Image" data-button="Insert" data-class="media-frame wpc-widgets-custom-uploader" title="Add Media">Add Media</a>
 				<a class="button wpc-widgets-delete-image" data-target="#<?php echo $this->get_field_id( 'image2x' ); ?>" data-preview=".wpc-widgets-preview-image">Delete</a>
 				<div class="wpc-widgets-preview-image"<?php echo $imagestyle; ?>><img src="<?php echo esc_url($image2x); ?>" /></div>
