@@ -5,7 +5,7 @@ Plugin URI: http://webplantmedia.com/starter-themes/wordpresscanvas/features/wid
 Description: Add "About Me" image widget, with caption and link, to any widget area.
 Author: Chris Baldelomar
 Author URI: http://webplantmedia.com/
-Version: 1.1
+Version: 1.4
 License: GPLv2 or later
 */
 
@@ -14,7 +14,7 @@ if ( ! defined( 'WPINC' ) ) {
 	die;
 }
 
-define( 'WPC_ABOUT_ME_IMAGE_WIDGET_VERSION', '1.1' );
+define( 'WPC_ABOUT_ME_IMAGE_WIDGET_VERSION', '1.4' );
 
 function wpc_about_me_image_widget_enqueue_admin_scripts( $hook ) {
 	if ( $hook == 'post-new.php' || $hook == 'post.php' || $hook == 'widgets.php' ) {

@@ -4,7 +4,7 @@ Contributors: cbaldelomar
 Donate link: http://webplantmedia.com/donate/
 Tags: about me, about me image, about me image widget, image widget
 Requires at least: 4.2.4
-Tested up to: 4.3
+Tested up to: 4.6.1
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -35,6 +35,10 @@ Yes, I do accept donations.  If you want to buy me a sandwich or something, you 
 4. Activate *About Me Image Widget*.
 
 == Changelog ==
+
+### Version 1.4
+
+* sanitized, validated, added options
 
 ### Version 1.1
 
