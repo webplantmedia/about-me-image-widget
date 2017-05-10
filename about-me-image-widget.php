@@ -5,7 +5,7 @@ Plugin URI: http://angiemakes.com/feminine-wordpress-blog-themes-women/
 Description: Add "About Me" image widget, with caption and link, to any widget area.
 Author: Chris Baldelomar
 Author URI: http://angiemakes.com/
-Version: 1.4.2
+Version: 1.4.3
 License: GPLv2 or later
 */
 
@@ -14,7 +14,7 @@ if ( ! defined( 'WPINC' ) ) {
 	die;
 }
 
-define( 'WPC_ABOUT_ME_IMAGE_WIDGET_VERSION', '1.4.2' );
+define( 'WPC_ABOUT_ME_IMAGE_WIDGET_VERSION', '1.4.3' );
 
 function wpc_about_me_image_widget_enqueue_admin_scripts( $hook ) {
 	if ( $hook == 'post-new.php' || $hook == 'post.php' || $hook == 'widgets.php' ) {

@@ -23,7 +23,7 @@ See the ['About Me Image Widget' in action](http://hallie.angiemakes.com/blog/)
 
 == Changelog ==
 
-### Version 1.4.2
+### Version 1.4.3
 
 * rebranded
 
