@@ -1,4 +1,4 @@
-=== About Me Image Widget ===
+=== About Me Image Widget by Angie Makes ===
 
 Contributors: cbaldelomar
 Tags: about me, about me image, about me image widget, image widget
