@@ -1,11 +1,11 @@
 <?php
 /*
-Plugin Name: About Me Image Widget
-Plugin URI: http://webplantmedia.com/starter-themes/wordpresscanvas/features/widgets/wordpress-canvas-widgets/
+Plugin Name: About Me Image Widget by Angie Makes
+Plugin URI: http://angiemakes.com/feminine-wordpress-blog-themes-women/
 Description: Add "About Me" image widget, with caption and link, to any widget area.
 Author: Chris Baldelomar
-Author URI: http://webplantmedia.com/
-Version: 1.4.1
+Author URI: http://angiemakes.com/
+Version: 1.4.2
 License: GPLv2 or later
 */
 
@@ -14,7 +14,7 @@ if ( ! defined( 'WPINC' ) ) {
 	die;
 }
 
-define( 'WPC_ABOUT_ME_IMAGE_WIDGET_VERSION', '1.4.1' );
+define( 'WPC_ABOUT_ME_IMAGE_WIDGET_VERSION', '1.4.2' );
 
 function wpc_about_me_image_widget_enqueue_admin_scripts( $hook ) {
 	if ( $hook == 'post-new.php' || $hook == 'post.php' || $hook == 'widgets.php' ) {
